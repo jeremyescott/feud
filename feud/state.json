@@ -1,0 +1,8 @@
+{
+  "round": 0,
+  "strikes": 0,
+  "points": [ 0, 0 ],
+  "teams": ["", ""],
+  "currentTeam": 0,
+  "roundScore": 0
+}

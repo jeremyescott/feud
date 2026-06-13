@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+</head>
+
+<body>
+<div id="board">
+    <div id="question"></div>
+
+    <div id="scoreA" class="score-box left-score"></div>
+    <div id="scoreB" class="score-box right-score"></div>
+
+    <div id="multiplier"></div>
+    <div id="strikeOverlay">X</div>
+    <div id="answers"></div>
+
+    <div id="testControls" class="test-buttons">
+        <button onclick="revealAnswer(1)">1</button>
+        <button onclick="revealAnswer(2)">2</button>
+        <button onclick="revealAnswer(3)">3</button>
+        <button onclick="revealAnswer(4)">4</button>
+        <button onclick="revealAnswer(5)">5</button>
+        <button onclick="revealAnswer(6)">6</button>
+        <button onclick="revealAll()">ALL</button>
+        <button onclick="resetBoard()">RESET</button>
+        <br>
+        <button onclick="addScoreA(10)">A +10</button>
+        <button onclick="addScoreB(10)">B +10</button>
+        <button onclick="addScoreA(-10)">A -10</button>
+        <button onclick="addScoreB(-10)">B -10</button>
+        <button onclick="setScoreA(0)">A 0</button>
+        <button onclick="setScoreB(0)">B 0</button>
+        <br>
+        <button onclick="addStrikeA()">A +X</button>
+        <button onclick="addStrikeB()">B +X</button>
+        <button onclick="clearStrikes()">Clear X</button>
+        <br>
+        <button onclick="setMultiplier(1)">1x</button>
+        <button onclick="setMultiplier(2)">2x</button>
+        <button onclick="setMultiplier(3)">3x</button>
+        <button onclick="awardAnswerToA(1)">A gets #1</button>
+        <button onclick="awardAnswerToB(1)">B gets #1</button>
+        <br>
+        <button onclick="loadRoundById('round1')">Load Round 1</button>
+        <button onclick="loadRoundById('round2')">Load Round 2</button>
+        <button onclick="hideControls()">Hide Controls</button>
+    </div>
+</div>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

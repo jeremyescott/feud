@@ -1,0 +1,67 @@
+{
+  "rounds": [
+    {
+      "question": "Something People Lose",
+      "answers": [
+        {
+          "text": "Keys",
+          "points": 35
+        },
+        {
+          "text": "Phone",
+          "points": 28
+        },
+        {
+          "text": "Wallet",
+          "points": 22
+        },
+        {
+          "text": "Socs",
+          "points": 14
+        },
+        {
+          "text": "Glasses",
+          "points": 11
+        },
+        {
+          "text": "Remote",
+          "points": 9
+        },
+        {
+          "text": "Mind",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "question": "NAME SOMETHING YOU TAKE TO THE BEACH",
+      "multiplier": 2,
+      "answers": [
+        {
+          "text": "TOWEL",
+          "points": 40
+        },
+        {
+          "text": "SUNSCREEN",
+          "points": 32
+        },
+        {
+          "text": "COOLER",
+          "points": 18
+        },
+        {
+          "text": "CHAIR",
+          "points": 10
+        },
+        {
+          "text": "UMBRELLA",
+          "points": 8
+        },
+        {
+          "text": "SNACKS",
+          "points": 6
+        }
+      ]
+    }
+  ]
+}
